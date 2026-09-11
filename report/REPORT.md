@@ -35,7 +35,7 @@ Nguồn evidence: `classification_predictions.json`, sample `traffic`.
     - Ngưỡng chênh lệch score tối thiểu giữa rank 1 và rank 2 để annotator được phép tự chốt nhãn mà không cần hỏi thêm.
     - Trường hợp ảnh thực sự đa chủ thể rõ rệt, nên chuyển sang tác vụ object detection hoặc instance segmentation thay vì ép về một nhãn duy nhất.
 - Vì sao model score không phải ground truth?
-    Score chỉ phản ánh mức độ tự tin nội tại của model dựa trên phân phối xác suất nó học được, chứ không phải một xác nhận đã qua kiểm chứng của con người. Ở đây score cao nhất chỉ đạt ~51%, nghĩa là chính model cũng không chắc chắn và hoàn toàn có thể sai. Ground truth chỉ được xác lập khi con người gán nhãn dựa trên guideline đã thống nhất.
+    Score chỉ phản ánh mức độ tự tin nội tại của model dựa trên phân phối xác suất nó học được, chứ không phải một xác nhận đã qua kiểm chứng của con người. Ở đây score cao nhất chỉ đạt ~51%, nghĩa là chính model cũng không chắc chắn và hoàn toàn có thể sai. Ground truth chỉ được xác lập khi con người gán nhãn dựa trên guideline đã thống nhất .
 
 ## 2. Phát hiện vật thể – lớp và box cho từng object
 
